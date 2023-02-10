@@ -5,23 +5,23 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
-    repo: https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT.git      
+    repo: https://t.me/anumitultrabots.git
     branch: main
     envVars:
-      - key: BOT_TOKEN 
+      - key: BOT_TOKEN
         sync: false
-      - key: API_ID 
+      - key: API_ID
         sync: false
-      - key: API_HASH 
+      - key: API_HASH
         sync: false
-      - key: FORCE_SUB 
+      - key: FORCE_SUB
         sync: false
-      - key: DB_NAME 
+      - key: DB_NAME
         sync: false
-      - key: DB_URL 
-        sync: false 
-      - key: START_PIC 
+      - key: DB_URL
         sync: false
-      - key: ADMIN 
-        sync: false    
-    autoDeploy: false 
+      - key: START_PIC
+        sync: false
+      - key: ADMIN
+        sync: false
+    autoDeploy: false
